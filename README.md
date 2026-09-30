@@ -1335,3 +1335,17 @@ __pycache__/
 *.h5
 checkpoints/
 backup/
+## Results
+
+The final model achieved the following performance on the test set:
+
+| Metric      | Test Set |
+| ----------- | -------: |
+| Accuracy    |   87.85% |
+| Sensitivity |   89.05% |
+| Specificity |   86.36% |
+| F1-score    |   89.05% |
+| ROC-AUC     |     0.90 |
+
+These results are reported on the held-out test set after model development and validation-based threshold selection.
+
